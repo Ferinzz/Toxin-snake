@@ -7,7 +7,7 @@ Once updated you should be able to compile and launch the game with f5.
 Should work fine on Mac and Linux provided you compile it to that platform. Should just need two commands
 ``odin build src -build-mode:dll --debug -out:snake_gd/bin/snake.dll``
 and to launch the game itself
-``C:\\Godot\\godot\\bin\\godot.windows.editor.dev.x86_64.exe --verbose --path ./asteroid``
+``C:\\Godot\\godot\\bin\\godot.windows.editor.dev.x86_64.exe --verbose --path ./snake_gd``
 
 The main scene is just there because Godot requires a main scene in order to function. Nothing is actually running in the SceneTree.
 
