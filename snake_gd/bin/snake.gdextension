@@ -1,0 +1,13 @@
+[configuration]
+
+entry_symbol = "godot_entry_init"
+compatibility_minimum = "4.4"
+
+[libraries]
+macos.debug = "res://bin/snake.dylib"
+linux.debug = "res://bin/snake.so"
+windows.debug = "res://bin/snake.dll"
+
+macos.release = "res://bin/snake.dylib"
+linux.release = "res://bin/snake.so"
+windows.release = "res://bin/snake.dll"
